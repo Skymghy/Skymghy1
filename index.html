@@ -1,15 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8" />
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Barbearia Alura</title>
+    <style>
+        body {
+            background-image: url("screenshot_2.png");
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+        
+        .container {
+            background-color: rgba(255, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            margin: 20px;
+        }
+        
+        .container-blue {
+            background-color: rgba(0, 0, 255, 0.7);
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            margin: 20px;
+        }
+        
+        .footer {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
 
-  </head>
-  <body>
-    <main>
-    </main>
-    <script src="sketch.js"></script>
-  </body>
+<body>
+    <header>
+        <h1>Barbearia Alura</h1>
+    </header>
+
+    <div class="container">
+        <p>Sobre a Barbearia Alura</p>
+        <p>Localizada no coração da cidade a Barbearia Alura traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+        <p>Nossa missão é: "Proporcionar auto-estima e qualidade de vida aos clientes".</p>
+    </div>
+
+    <div class="container-blue">
+        <p>Vantagens de cortar o cabelo na nossa barbearia:</p>
+        <ul>
+            <li>Profissionais experientes e qualificados</li>
+            <li>Atendimento personalizado</li>
+            <li>Ambiente confortável e acolhedor</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>NÃO perca a oportunidade de conseguir os melhores descontos da cidade com a gente, e clientes fiéis a nossa barbearia irão receber descontos imperdíveis.</p>
+    </div>
+</body>
+
 </html>
